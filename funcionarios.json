@@ -1,0 +1,16 @@
+{
+    "cae": {
+        "name": "cae"
+    },
+    "Dani": {
+        "name": "Dani",
+        "role": "Farmaceutico"
+    },
+    "Tati": {
+        "name": "Tati",
+        "role": "Farmaceutico"
+    },
+    "Caetano": {
+        "name": "Caetano"
+    }
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "date": "2025-09-15",
+        "nr": 12345,
+        "tipo_formula": "C\u00e1psulas",
+        "funcionario_pesagem": "Alice",
+        "funcionario_manipulacao": "David",
+        "funcionario_pm": "Charlie",
+        "refeito_pm": false,
+        "refeito_exc": false,
+        "estoque_usado": false,
+        "estoque_feito": false
+    },
+    {
+        "date": "2025-09-15",
+        "nr": 71747427,
+        "tipo_formula": "Semi-S\u00f3lidos",
+        "funcionario_pesagem": "Alice",
+        "funcionario_manipulacao": "cae",
+        "funcionario_pm": "David",
+        "refeito_pm": false,
+        "refeito_exc": false,
+        "estoque_usado": true,
+        "estoque_feito": false
+    },
+    {
+        "date": "2025-09-15",
+        "nr": 2312341,
+        "tipo_formula": "Sub-Lingual/C\u00e1psulas Oleosas",
+        "funcionario_pesagem": "Charlie",
+        "funcionario_manipulacao": "Dani",
+        "funcionario_pm": "Bob",
+        "refeito_pm": false,
+        "refeito_exc": true,
+        "estoque_usado": false,
+        "estoque_feito": false
+    },
+    {
+        "date": "2025-09-15",
+        "nr": 123,
+        "tipo_formula": "L\u00edquidos Orais",
+        "funcionario_pesagem": "Tati",
+        "funcionario_manipulacao": "cae",
+        "funcionario_pm": "cae",
+        "refeito_pm": false,
+        "refeito_exc": false,
+        "estoque_usado": false,
+        "estoque_feito": false
+    },
+    {
+        "date": "2025-09-15",
+        "nr": 2741724,
+        "tipo_formula": "L\u00edquidos Orais",
+        "funcionario_pesagem": "Dani",
+        "funcionario_manipulacao": "Bob",
+        "funcionario_pm": "Charlie",
+        "refeito_pm": false,
+        "refeito_exc": false,
+        "estoque_usado": true,
+        "estoque_feito": false
+    },
+    {
+        "date": "2025-09-15",
+        "nr": 3544281,
+        "tipo_formula": "C\u00e1psulas",
+        "funcionario_pesagem": "Dani",
+        "funcionario_manipulacao": "Dani",
+        "funcionario_pm": "Dani",
+        "refeito_pm": true,
+        "refeito_exc": false,
+        "estoque_usado": false,
+        "estoque_feito": true
+    }
+]

@@ -1,301 +1,252 @@
-import tkinter as tk
-from tkinter import ttk, messagebox
-import json
-import os
-import datetime
+import pandas as pd
+import dash
+from dash import html, dcc, Input, Output
+import plotly.express as px
+import plotly.graph_objects as go
+from datetime import date
 
-# --- File Management Functions (Same as before) ---
-DATABASE_FILE = "funcionarios.json"
-FORMULAS_FILE = "formulas.json"
+# Load and preprocess the data
+df = pd.read_json("fake_data.json")
+df['date'] = pd.to_datetime(df['date'])
 
-def create_databases():
-    """Ensures the JSON files for employees and formulas exist."""
-    for file_path in [DATABASE_FILE, FORMULAS_FILE]:
-        if not os.path.exists(file_path):
-            if file_path == FORMULAS_FILE:
-                with open(file_path, 'w') as f:
-                    json.dump([], f)
-            else:
-                with open(file_path, 'w') as f:
-                    json.dump({}, f)
+# Initialize the Dash app
+app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}])
+app.title = "Painel de Produção de Fórmulas"
 
-def get_employees():
-    """Reads all employees from the JSON file."""
-    try:
-        with open(DATABASE_FILE, 'r') as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
+# Layout
+app.layout = html.Div(
+    className="container",
+    style={'font-family': 'Arial, sans-serif'},
+    children=[
+        html.H1("Painel de Produção de Fórmulas", style={"textAlign": "center", "color": "#0056b3"}),
+
+        html.Div(
+            className="row",
+            style={"margin-top": "20px", "display": "flex", "justify-content": "center", "gap": "20px"},
+            children=[
+                html.Div(
+                    style={"width": "300px"},
+                    children=[
+                        html.Label("Selecione o Período:", style={'font-weight': 'bold'}),
+                        dcc.DatePickerRange(
+                            id='date_range_picker',
+                            start_date=df['date'].min().date(),
+                            end_date=df['date'].max().date(),
+                            display_format='DD/MM/YYYY'
+                        )
+                    ]
+                ),
+                html.Div(
+                    style={"width": "300px"},
+                    children=[
+                        html.Label("Agrupar por:", style={'font-weight': 'bold'}),
+                        dcc.Dropdown(
+                            id='time_filter',
+                            options=[
+                                {"label": "Dia", "value": "D"},
+                                {"label": "Semana", "value": "W"},
+                                {"label": "Mês", "value": "M"},
+                            ],
+                            value="D",
+                            clearable=False
+                        )
+                    ]
+                ),
+            ]
+        ),
+        
+        html.Div(id='kpi_cards', className="row", style={"margin-top": "20px", "display": "flex", "justify-content": "space-around", "flex-wrap": "wrap"}),
+
+        html.Div(
+            className="row",
+            style={"margin-top": "40px", "display": "flex", "flex-wrap": "wrap"},
+            children=[
+                html.Div(
+                    className="col-12 col-md-6",
+                    children=[
+                        dcc.Graph(id='tipo_formula_pie')
+                    ]
+                ),
+                html.Div(
+                    className="col-12 col-md-6",
+                    children=[
+                        dcc.Graph(id='employee_counts')
+                    ]
+                )
+            ]
+        ),
+        
+        html.Div(
+            className="row",
+            style={"margin-top": "40px", "display": "flex", "flex-wrap": "wrap", "gap": "20px"},
+            children=[
+                html.Div(className="col-12 col-md-4", children=[dcc.Graph(id='weighing_employee_bar')]),
+                html.Div(className="col-12 col-md-4", children=[dcc.Graph(id='handling_employee_bar')]),
+                html.Div(className="col-12 col-md-4", children=[dcc.Graph(id='pm_employee_bar')])
+            ]
+        ),
+        
+        html.Div(
+            className="row",
+            style={"margin-top": "40px", "display": "flex", "flex-wrap": "wrap", "gap": "20px"},
+            children=[
+                html.Div(className="col-12 col-md-4", children=[dcc.Graph(id='stock_made_employee_bar')]),
+                html.Div(className="col-12 col-md-4", children=[dcc.Graph(id='exc_reworked_weighing_bar')]),
+                html.Div(className="col-12 col-md-4", children=[dcc.Graph(id='pm_reworked_handling_bar')])
+            ]
+        ),
+
+        html.Div(
+            className="row",
+            style={"margin-top": "40px", "display": "flex", "flex-wrap": "wrap"},
+            children=[
+                html.Div(className="col-12 col-md-6", children=[dcc.Graph(id='formulas_over_time')]),
+                html.Div(className="col-12 col-md-6", children=[dcc.Graph(id='stock_over_time')])
+            ]
+        ),
+    ]
+)
+
+# Callback to update all components
+@app.callback(
+    [Output('kpi_cards', 'children'),
+     Output('tipo_formula_pie', 'figure'),
+     Output('employee_counts', 'figure'),
+     Output('weighing_employee_bar', 'figure'),
+     Output('handling_employee_bar', 'figure'),
+     Output('pm_employee_bar', 'figure'),
+     Output('stock_made_employee_bar', 'figure'),
+     Output('exc_reworked_weighing_bar', 'figure'),
+     Output('pm_reworked_handling_bar', 'figure'),
+     Output('formulas_over_time', 'figure'),
+     Output('stock_over_time', 'figure')],
+    [Input('date_range_picker', 'start_date'),
+     Input('date_range_picker', 'end_date'),
+     Input('time_filter', 'value')]
+)
+def update_dashboard(start_date, end_date, time_freq):
+    # Filter dataframe based on date range
+    filtered_df = df[(df['date'] >= start_date) & (df['date'] <= end_date)]
+
+    # Handle case with no data
+    if filtered_df.empty:
+        empty_fig = go.Figure()
+        empty_fig.update_layout(title="Nenhum dado encontrado para o período selecionado.")
+        return (
+            [html.Div("Nenhum dado encontrado para o período selecionado.", style={"textAlign": "center", "color": "red"})],
+            empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig
+        )
+
+    # --- KPIs for exceptions ---
+    total_refeito_pm = filtered_df['refeito_pm'].sum()
+    total_refeito_exc = filtered_df['refeito_exc'].sum()
+    total_estoque_usado = filtered_df['estoque_usado'].sum()
+    total_estoque_feito = filtered_df['estoque_feito'].sum()
     
-def add_employee_logic(name, is_farmaceutico):
-    """Adds a new employee to the database with an optional role."""
-    employees = get_employees()
-    if name in employees:
-        return False, f"Error: An employee with the name '{name}' already exists."
-    else:
-        employee_data = {"name": name}
-        if is_farmaceutico:
-            employee_data["role"] = "Farmaceutico"
-        employees[name] = employee_data
-        with open(DATABASE_FILE, 'w') as f:
-            json.dump(employees, f, indent=4)
-        return True, f"Employee '{name}' added successfully."
+    kpi_cards = [
+        html.Div(className="kpi-card", style={"border": "1px solid #ddd", "padding": "20px", "border-radius": "5px", "text-align": "center", "background-color": "#f9f9f9", "min-width": "180px", "margin": "10px"},
+                 children=[html.H3("Refeito PM", style={"color": "#dc3545", "font-size": "1.2em"}),
+                           html.P(f"{total_refeito_pm}", style={"font-size": "2em", "font-weight": "bold", "color": "#dc3545"})]),
+        html.Div(className="kpi-card", style={"border": "1px solid #ddd", "padding": "20px", "border-radius": "5px", "text-align": "center", "background-color": "#f9f9f9", "min-width": "180px", "margin": "10px"},
+                 children=[html.H3("Refeito EXC", style={"color": "#ffc107", "font-size": "1.2em"}),
+                           html.P(f"{total_refeito_exc}", style={"font-size": "2em", "font-weight": "bold", "color": "#ffc107"})]),
+        html.Div(className="kpi-card", style={"border": "1px solid #ddd", "padding": "20px", "border-radius": "5px", "text-align": "center", "background-color": "#f9f9f9", "min-width": "180px", "margin": "10px"},
+                 children=[html.H3("Estoque Usado", style={"color": "#28a745", "font-size": "1.2em"}),
+                           html.P(f"{total_estoque_usado}", style={"font-size": "2em", "font-weight": "bold", "color": "#28a745"})]),
+        html.Div(className="kpi-card", style={"border": "1px solid #ddd", "padding": "20px", "border-radius": "5px", "text-align": "center", "background-color": "#f9f9f9", "min-width": "180px", "margin": "10px"},
+                 children=[html.H3("Estoque Feito", style={"color": "#17a2b8", "font-size": "1.2em"}),
+                           html.P(f"{total_estoque_feito}", style={"font-size": "2em", "font-weight": "bold", "color": "#17a2b8"})])
+    ]
 
-def remove_employee_logic(name):
-    """Removes an employee from the database."""
-    employees = get_employees()
-    if name not in employees:
-        return False, f"Error: Employee '{name}' not found."
-    else:
-        del employees[name]
-        with open(DATABASE_FILE, 'w') as f:
-            json.dump(employees, f, indent=4)
-        return True, f"Employee '{name}' removed successfully."
+    # --- Formula Type Pie Chart ---
+    formula_counts = filtered_df['tipo_formula'].value_counts().reset_index()
+    formula_counts.columns = ['tipo_formula', 'count']
+    tipo_formula_pie = px.pie(
+        formula_counts,
+        values='count',
+        names='tipo_formula',
+        title='Distribuição de Fórmulas por Tipo',
+        labels={'tipo_formula': 'Tipo de Fórmula', 'count': 'Contagem'},
+        hole=.4
+    )
+    tipo_formula_pie.update_traces(textposition='inside', textinfo='percent+label')
 
-def save_formula(data):
-    """Saves the formula data to the formulas.json file."""
-    create_databases()
-    try:
-        with open(FORMULAS_FILE, 'r') as f:
-            formulas = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        formulas = []
+    # --- Overall Employee Counts ---
+    employee_melted = filtered_df.melt(
+        id_vars=['date'],
+        value_vars=['funcionario_pesagem', 'funcionario_manipulacao', 'funcionario_pm'],
+        var_name='role',
+        value_name='employee'
+    )
+    overall_employee_counts = employee_melted.groupby('employee').size().reset_index(name='count').sort_values('count', ascending=False)
+    overall_employee_fig = px.bar(
+        overall_employee_counts,
+        x='employee',
+        y='count',
+        color='employee',
+        title="Contagem Total de Fórmulas por Funcionário",
+        labels={'employee': 'Funcionário', 'count': 'Contagem'},
+        text_auto=True
+    )
 
-    formulas.append(data)
+    # --- Individual Employee Role Bar Charts ---
+    weighing_counts = filtered_df['funcionario_pesagem'].value_counts().reset_index()
+    weighing_counts.columns = ['Funcionário', 'Contagem']
+    weighing_fig = px.bar(weighing_counts, x='Funcionário', y='Contagem', title='Fórmulas Pesadas por Funcionário', text_auto=True)
+    weighing_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
 
-    with open(FORMULAS_FILE, 'w') as f:
-        json.dump(formulas, f, indent=4)
+    handling_counts = filtered_df['funcionario_manipulacao'].value_counts().reset_index()
+    handling_counts.columns = ['Funcionário', 'Contagem']
+    handling_fig = px.bar(handling_counts, x='Funcionário', y='Contagem', title='Fórmulas Manipuladas por Funcionário', text_auto=True)
+    handling_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
 
-# --- GUI Application Class ---
-
-class App:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("Gestão de Produção")
-        self.root.geometry("400x300")
-        
-        create_databases()
-        self.employees = get_employees()
-
-        self.main_frame = tk.Frame(root, padx=20, pady=20)
-        self.main_frame.pack(expand=True)
-
-        self.title_label = tk.Label(self.main_frame, text="Selecione uma opção:", font=("Helvetica", 16, "bold"))
-        self.title_label.pack(pady=10)
-
-        # Adicionar Formulas Button
-        self.btn_formulas = tk.Button(self.main_frame, text="Adicionar Formulas", width=25, command=self.show_formulas_window)
-        self.btn_formulas.pack(pady=5)
-
-        # Cadastrar Funcionario Button
-        self.btn_add_employee = tk.Button(self.main_frame, text="Cadastrar Funcionario", width=25, command=self.show_add_employee_window)
-        self.btn_add_employee.pack(pady=5)
-
-        # Remover Funcionario Button
-        self.btn_remove_employee = tk.Button(self.main_frame, text="Remover Funcionario", width=25, command=self.show_remove_employee_window)
-        self.btn_remove_employee.pack(pady=5)
+    pm_counts = filtered_df['funcionario_pm'].value_counts().reset_index()
+    pm_counts.columns = ['Funcionário', 'Contagem']
+    pm_fig = px.bar(pm_counts, x='Funcionário', y='Contagem', title='Fórmulas Verificadas (PM) por Funcionário', text_auto=True)
+    pm_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
     
-    # --- New Formula Window Logic (Modified) ---
-    def show_formulas_window(self):
-        """Hides the main window and shows a new Toplevel window for formula input."""
-        # Hide the main window
-        self.root.withdraw()
-        
-        self.formulas_win = tk.Toplevel(self.root)
-        self.formulas_win.title("Adicionar Formulas")
-        self.formulas_win.geometry("450x550")
-        
-        # Define what happens when the window is closed
-        self.formulas_win.protocol("WM_DELETE_WINDOW", self.on_formulas_window_close)
-        
-        main_frame = tk.Frame(self.formulas_win, padx=20, pady=20)
-        main_frame.pack(fill=tk.BOTH, expand=True)
-
-        # NR da Formula
-        tk.Label(main_frame, text="NR da Formula:", font=("Helvetica", 12)).pack(pady=5)
-        self.nr_entry = tk.Entry(main_frame, width=30)
-        self.nr_entry.pack(pady=5)
-        
-        # Tipo de Formula
-        tk.Label(main_frame, text="Tipo de Formula:", font=("Helvetica", 12)).pack(pady=5)
-        formula_types = ["Cápsulas", "Sachês", "Sub-Lingual/Cápsulas Oleosas", "Semi-Sólidos", "Líquidos Orais"]
-        self.formula_type_var = tk.StringVar(self.formulas_win)
-        self.formula_type_dropdown = ttk.Combobox(main_frame, textvariable=self.formula_type_var, values=formula_types, state="readonly")
-        self.formula_type_dropdown.pack(pady=5)
-        self.formula_type_dropdown.set(formula_types[0])
-        
-        # Funcionario Pesagem (Farmaceutico)
-        tk.Label(main_frame, text="Funcionario Pesagem:", font=("Helvetica", 12)).pack(pady=5)
-        farmaceuticos = [name for name, details in self.employees.items() if details.get('role') == 'Farmaceutico']
-        self.pesagem_var = tk.StringVar(self.formulas_win)
-        self.pesagem_dropdown = ttk.Combobox(main_frame, textvariable=self.pesagem_var, values=farmaceuticos, state="readonly")
-        self.pesagem_dropdown.pack(pady=5)
-        
-        # Funcionario Manipulacao
-        tk.Label(main_frame, text="Funcionario Manipulacao:", font=("Helvetica", 12)).pack(pady=5)
-        all_employees = list(self.employees.keys())
-        self.manipulacao_var = tk.StringVar(self.formulas_win)
-        self.manipulacao_dropdown = ttk.Combobox(main_frame, textvariable=self.manipulacao_var, values=all_employees, state="readonly")
-        self.manipulacao_dropdown.pack(pady=5)
-        
-        # Funcionario PM
-        tk.Label(main_frame, text="Funcionario PM:", font=("Helvetica", 12)).pack(pady=5)
-        self.pm_var = tk.StringVar(self.formulas_win)
-        self.pm_dropdown = ttk.Combobox(main_frame, textvariable=self.pm_var, values=all_employees, state="readonly")
-        self.pm_dropdown.pack(pady=5)
-
-        # Checkboxes
-        self.refeito_pm_var = tk.BooleanVar()
-        self.refeito_exc_var = tk.BooleanVar()
-        self.estoque_usado_var = tk.BooleanVar()
-        self.estoque_feito_var = tk.BooleanVar()
-
-        refeito_frame = tk.Frame(main_frame)
-        refeito_frame.pack(pady=10)
-        
-        estoque_frame = tk.Frame(main_frame)
-        estoque_frame.pack(pady=5)
-
-        tk.Checkbutton(refeito_frame, text="Refeito PM", variable=self.refeito_pm_var, font=("Helvetica", 12)).pack(side=tk.LEFT, padx=10)
-        tk.Checkbutton(refeito_frame, text="Refeito EXC", variable=self.refeito_exc_var, font=("Helvetica", 12)).pack(side=tk.LEFT, padx=10)
-        
-        tk.Checkbutton(estoque_frame, text="Estoque Usado", variable=self.estoque_usado_var, font=("Helvetica", 12)).pack(side=tk.LEFT, padx=10)
-        tk.Checkbutton(estoque_frame, text="Estoque Feito", variable=self.estoque_feito_var, font=("Helvetica", 12)).pack(side=tk.LEFT, padx=10)
-        
-        # Save Button
-        save_button = tk.Button(main_frame, text="Salvar Formula", command=self.save_formula_data)
-        save_button.pack(pady=20)
+    # --- NEW GRAPHS ---
     
-    def save_formula_data(self):
-        """Gathers data from the form and saves it. Resets the form for the next entry."""
-        nr = self.nr_entry.get().strip()
-        formula_type = self.formula_type_var.get()
-        funcionario_pesagem = self.pesagem_var.get()
-        funcionario_manipulacao = self.manipulacao_var.get()
-        funcionario_pm = self.pm_var.get()
-        refeito_pm = self.refeito_pm_var.get()
-        refeito_exc = self.refeito_exc_var.get()
-        estoque_usado = self.estoque_usado_var.get()
-        estoque_feito = self.estoque_feito_var.get()
+    # Estoque Feito por Funcionário
+    stock_made_df = filtered_df[filtered_df['estoque_feito'] > 0]
+    stock_made_counts = stock_made_df['funcionario_manipulacao'].value_counts().reset_index()
+    stock_made_counts.columns = ['Funcionário', 'Contagem']
+    stock_made_fig = px.bar(stock_made_counts, x='Funcionário', y='Contagem', title='Estoque Feito por Funcionário', text_auto=True)
+    stock_made_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
 
-        if not nr or not formula_type or not funcionario_pesagem or not funcionario_manipulacao or not funcionario_pm:
-            messagebox.showerror("Validation Error", "Please fill in all fields.")
-            return
+    # Refeito EXC por Funcionário de Pesagem
+    exc_reworked_df = filtered_df[filtered_df['refeito_exc'] > 0]
+    exc_reworked_counts = exc_reworked_df['funcionario_pesagem'].value_counts().reset_index()
+    exc_reworked_counts.columns = ['Funcionário', 'Contagem']
+    exc_reworked_fig = px.bar(exc_reworked_counts, x='Funcionário', y='Contagem', title='Refeito EXC por Funcionário de Pesagem', text_auto=True)
+    exc_reworked_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
 
-        try:
-            nr = int(nr)
-        except ValueError:
-            messagebox.showerror("Validation Error", "NR must be a number.")
-            return
+    # Refeito PM por Funcionário de Manipulação
+    pm_reworked_df = filtered_df[filtered_df['refeito_pm'] > 0]
+    pm_reworked_counts = pm_reworked_df['funcionario_manipulacao'].value_counts().reset_index()
+    pm_reworked_counts.columns = ['Funcionário', 'Contagem']
+    pm_reworked_fig = px.bar(pm_reworked_counts, x='Funcionário', y='Contagem', title='Refeito PM por Funcionário de Manipulação', text_auto=True)
+    pm_reworked_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
 
-        formula_data = {
-            "date": datetime.date.today().isoformat(),
-            "nr": nr,
-            "tipo_formula": formula_type,
-            "funcionario_pesagem": funcionario_pesagem,
-            "funcionario_manipulacao": funcionario_manipulacao,
-            "funcionario_pm": funcionario_pm,
-            "refeito_pm": refeito_pm,
-            "refeito_exc": refeito_exc,
-            "estoque_usado": estoque_usado,
-            "estoque_feito": estoque_feito
-        }
+    # Formulas over Time
+    formulas_over_time_df = filtered_df.groupby(pd.Grouper(key='date', freq=time_freq)).size().reset_index(name='count')
+    formulas_over_time_fig = px.line(formulas_over_time_df, x='date', y='count', markers=True, title='Fórmulas Feitas ao Longo do Tempo')
+    formulas_over_time_fig.update_layout(xaxis_title="Data", yaxis_title="Número de Fórmulas", hovermode="x unified")
 
-        save_formula(formula_data)
-        messagebox.showinfo("Success", "Formula saved successfully! You can now add another.")
-        
-        # Reset all form fields for the next entry
-        self.nr_entry.delete(0, tk.END)
-        self.pesagem_var.set('')
-        self.manipulacao_var.set('')
-        self.pm_var.set('')
-        self.refeito_pm_var.set(False)
-        self.refeito_exc_var.set(False)
-        self.estoque_usado_var.set(False)
-        self.estoque_feito_var.set(False)
-        self.nr_entry.focus_set()
+    # Stock Made and Used over Time
+    stock_over_time_df = filtered_df.groupby(pd.Grouper(key='date', freq=time_freq)).agg({
+        'estoque_feito': 'sum',
+        'estoque_usado': 'sum'
+    }).reset_index()
+    stock_over_time_fig = go.Figure()
+    stock_over_time_fig.add_trace(go.Scatter(x=stock_over_time_df['date'], y=stock_over_time_df['estoque_feito'], mode='lines+markers', name='Estoque Feito'))
+    stock_over_time_fig.add_trace(go.Scatter(x=stock_over_time_df['date'], y=stock_over_time_df['estoque_usado'], mode='lines+markers', name='Estoque Usado'))
+    stock_over_time_fig.update_layout(title='Estoque Feito e Usado ao Longo do Tempo', xaxis_title='Data', yaxis_title='Contagem', hovermode="x unified")
 
-    def on_formulas_window_close(self):
-        """Handles the window close event to unhide the main menu."""
-        self.formulas_win.destroy()
-        self.root.deiconify()
 
-    def show_add_employee_window(self):
-        """Displays the 'Cadastrar Funcionario' window with Farmaceutico checkbox."""
-        add_win = tk.Toplevel(self.root)
-        add_win.title("Cadastrar Funcionario")
-        add_win.geometry("350x180")
+    return (kpi_cards, tipo_formula_pie, overall_employee_fig, weighing_fig, handling_fig, pm_fig, 
+            stock_made_fig, exc_reworked_fig, pm_reworked_fig, formulas_over_time_fig, stock_over_time_fig)
 
-        tk.Label(add_win, text="Nome do Funcionario:", font=("Helvetica", 12)).pack(pady=5)
-        entry_frame = tk.Frame(add_win)
-        entry_frame.pack(pady=5)
-
-        self.add_entry = tk.Entry(entry_frame, width=22)
-        self.add_entry.pack(side=tk.LEFT, padx=(0, 10))
-
-        self.farmaceutico_var = tk.BooleanVar()
-        tk.Checkbutton(entry_frame, text="Farmaceutico", variable=self.farmaceutico_var, font=("Helvetica", 10)).pack(side=tk.LEFT)
-
-        tk.Button(add_win, text="Cadastrar", command=lambda: self.handle_add_employee(add_win)).pack(pady=15)
-
-    def handle_add_employee(self, window):
-        """Handles the logic for adding an employee from the GUI, with Farmaceutico role."""
-        name = self.add_entry.get().strip()
-        is_farmaceutico = self.farmaceutico_var.get()
-        
-        if name:
-            success, message = add_employee_logic(name, is_farmaceutico)
-            if success:
-                messagebox.showinfo("Success", message)
-                self.employees = get_employees() 
-                window.destroy()
-            else:
-                messagebox.showerror("Error", message)
-        else:
-            messagebox.showerror("Error", "Name cannot be empty.")
-
-    def show_remove_employee_window(self):
-        """Displays the 'Remover Funcionario' window."""
-        remove_win = tk.Toplevel(self.root)
-        remove_win.title("Remover Funcionario")
-        remove_win.geometry("300x200")
-
-        employees = get_employees()
-        
-        if not employees:
-            tk.Label(remove_win, text="No employees to remove.", font=("Helvetica", 12)).pack(pady=20)
-            return
-
-        tk.Label(remove_win, text="Selecione o funcionario:", font=("Helvetica", 12)).pack(pady=5)
-        
-        self.employee_var = tk.StringVar(remove_win)
-        self.employee_var.set("Select...")
-        self.employee_dropdown = tk.OptionMenu(remove_win, self.employee_var, *employees.keys())
-        self.employee_dropdown.pack(pady=5)
-
-        tk.Button(remove_win, text="Remover", command=lambda: self.handle_remove_employee(remove_win)).pack(pady=10)
-
-    def handle_remove_employee(self, window):
-        """Handles the logic for removing an employee from the GUI."""
-        name = self.employee_var.get()
-        if name and name != "Select...":
-            success, message = remove_employee_logic(name)
-            if success:
-                messagebox.showinfo("Success", message)
-                self.employees = get_employees() 
-                window.destroy()
-            else:
-                messagebox.showerror("Error", message)
-        else:
-            messagebox.showerror("Error", "Please select an employee.")
-
+# Run the app
 if __name__ == "__main__":
-    # Create an example funcionarios.json for demonstration if it doesn't exist
-    if not os.path.exists(DATABASE_FILE):
-        example_employees = {}
-        with open(DATABASE_FILE, 'w') as f:
-            json.dump(example_employees, f, indent=4)
-            
-    root = tk.Tk()
-    app = App(root)
-    root.mainloop()
+    app.run(debug=True, host='0.0.0.0')

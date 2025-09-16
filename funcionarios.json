@@ -1,7 +1,4 @@
 {
-    "cae": {
-        "name": "cae"
-    },
     "Dani": {
         "name": "Dani",
         "role": "Farmaceutico"
@@ -12,5 +9,8 @@
     },
     "Caetano": {
         "name": "Caetano"
+    },
+    "Julia": {
+        "name": "Julia"
     }
 }

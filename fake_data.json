@@ -10,6 +10,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -23,6 +24,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -36,6 +38,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -49,6 +52,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -62,6 +66,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -75,6 +80,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -88,6 +94,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -101,6 +108,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -114,6 +122,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -127,6 +136,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -140,6 +150,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -153,6 +164,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -166,6 +178,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -179,6 +192,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -192,6 +206,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -205,6 +220,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -218,6 +234,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -231,6 +248,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -244,6 +262,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -257,6 +276,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -270,6 +290,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -283,6 +304,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -296,6 +318,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -309,6 +332,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -322,6 +346,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -335,6 +360,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -348,6 +374,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -361,6 +388,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -374,6 +402,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -387,6 +416,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -400,6 +430,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -413,6 +444,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -426,6 +458,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -439,6 +472,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -452,6 +486,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -465,6 +500,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -478,6 +514,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -491,6 +528,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -504,6 +542,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -517,6 +556,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -530,6 +570,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -543,6 +584,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -556,6 +598,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -569,6 +612,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -582,6 +626,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -595,6 +640,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -608,6 +654,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -621,6 +668,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -634,6 +682,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -647,6 +696,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -660,6 +710,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -673,6 +724,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -686,6 +738,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -699,6 +752,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -712,6 +766,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -725,6 +780,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -738,6 +794,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -751,6 +808,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -764,6 +822,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -777,6 +836,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -790,6 +850,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -803,6 +864,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -816,6 +878,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -829,6 +892,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -842,6 +906,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -855,6 +920,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -868,6 +934,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -881,6 +948,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -894,6 +962,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -907,6 +976,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -920,6 +990,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -933,6 +1004,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -946,6 +1018,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -959,6 +1032,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -972,6 +1046,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -985,6 +1060,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -998,6 +1074,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1011,6 +1088,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1024,6 +1102,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1037,6 +1116,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1050,6 +1130,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1063,6 +1144,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1076,6 +1158,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1089,6 +1172,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1102,6 +1186,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1115,6 +1200,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1128,6 +1214,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1141,6 +1228,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1154,6 +1242,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1167,6 +1256,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1180,6 +1270,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1193,6 +1284,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1206,6 +1298,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1219,6 +1312,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1232,6 +1326,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1245,6 +1340,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1258,6 +1354,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1271,6 +1368,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1284,6 +1382,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1297,6 +1396,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1310,6 +1410,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1323,6 +1424,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1336,6 +1438,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1349,6 +1452,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1362,6 +1466,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1375,6 +1480,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1388,6 +1494,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1401,6 +1508,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1414,6 +1522,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1427,6 +1536,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1440,6 +1550,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1453,6 +1564,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1466,6 +1578,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1479,6 +1592,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1492,6 +1606,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1505,6 +1620,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1518,6 +1634,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1531,6 +1648,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1544,6 +1662,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1557,6 +1676,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1570,6 +1690,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1583,6 +1704,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1596,6 +1718,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1609,6 +1732,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1622,6 +1746,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1635,6 +1760,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1648,6 +1774,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1661,6 +1788,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1674,6 +1802,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1687,6 +1816,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1700,6 +1830,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1713,6 +1844,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1726,6 +1858,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1739,6 +1872,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1752,6 +1886,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1765,6 +1900,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1778,6 +1914,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1791,6 +1928,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1804,6 +1942,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1817,6 +1956,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1830,6 +1970,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1843,6 +1984,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1856,6 +1998,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1869,6 +2012,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1882,6 +2026,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1895,6 +2040,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1908,6 +2054,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1921,6 +2068,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -1934,6 +2082,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1947,6 +2096,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1960,6 +2110,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1973,6 +2124,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1986,6 +2138,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -1999,6 +2152,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2012,6 +2166,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2025,6 +2180,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2038,6 +2194,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2051,6 +2208,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2064,6 +2222,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2077,6 +2236,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2090,6 +2250,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2103,6 +2264,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2116,6 +2278,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2129,6 +2292,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2142,6 +2306,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2155,6 +2320,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2168,6 +2334,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2181,6 +2348,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2194,6 +2362,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2207,6 +2376,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2220,6 +2390,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2233,6 +2404,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2246,6 +2418,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2259,6 +2432,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2272,6 +2446,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2285,6 +2460,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2298,6 +2474,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2311,6 +2488,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2324,6 +2502,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2337,6 +2516,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2350,6 +2530,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2363,6 +2544,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2376,6 +2558,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2389,6 +2572,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2402,6 +2586,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2415,6 +2600,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2428,6 +2614,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2441,6 +2628,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2454,6 +2642,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2467,6 +2656,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2480,6 +2670,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2493,6 +2684,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2506,6 +2698,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2519,6 +2712,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2532,6 +2726,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2545,6 +2740,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2558,6 +2754,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2571,6 +2768,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2584,6 +2782,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2597,6 +2796,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2610,6 +2810,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2623,6 +2824,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2636,6 +2838,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2649,6 +2852,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2662,6 +2866,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2675,6 +2880,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2688,6 +2894,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2701,6 +2908,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2714,6 +2922,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2727,6 +2936,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2740,6 +2950,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2753,6 +2964,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2766,6 +2978,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2779,6 +2992,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2792,6 +3006,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2805,6 +3020,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2818,6 +3034,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2831,6 +3048,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2844,6 +3062,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2857,6 +3076,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2870,6 +3090,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2883,6 +3104,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2896,6 +3118,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2909,6 +3132,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2922,6 +3146,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2935,6 +3160,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2948,6 +3174,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2961,6 +3188,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -2974,6 +3202,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -2987,6 +3216,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3000,6 +3230,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3013,6 +3244,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3026,6 +3258,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3039,6 +3272,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3052,6 +3286,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3065,6 +3300,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3078,6 +3314,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3091,6 +3328,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3104,6 +3342,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3117,6 +3356,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3130,6 +3370,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3143,6 +3384,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3156,6 +3398,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3169,6 +3412,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3182,6 +3426,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3195,6 +3440,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3208,6 +3454,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3221,6 +3468,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3234,6 +3482,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3247,6 +3496,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3260,6 +3510,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3273,6 +3524,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3286,6 +3538,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3299,6 +3552,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3312,6 +3566,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3325,6 +3580,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3338,6 +3594,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3351,6 +3608,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3364,6 +3622,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3377,6 +3636,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3390,6 +3650,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3403,6 +3664,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3416,6 +3678,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3429,6 +3692,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3442,6 +3706,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3455,6 +3720,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3468,6 +3734,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3481,6 +3748,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3494,6 +3762,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3507,6 +3776,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3520,6 +3790,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3533,6 +3804,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3546,6 +3818,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3559,6 +3832,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3572,6 +3846,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3585,6 +3860,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3598,6 +3874,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3611,6 +3888,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3624,6 +3902,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3637,6 +3916,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3650,6 +3930,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3663,6 +3944,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3676,6 +3958,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3689,6 +3972,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3702,6 +3986,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3715,6 +4000,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3728,6 +4014,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3741,6 +4028,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3754,6 +4042,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3767,6 +4056,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3780,6 +4070,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3793,6 +4084,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3806,6 +4098,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3819,6 +4112,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3832,6 +4126,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3845,6 +4140,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3858,6 +4154,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3871,6 +4168,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3884,6 +4182,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3897,6 +4196,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3910,6 +4210,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3923,6 +4224,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3936,6 +4238,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3949,6 +4252,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -3962,6 +4266,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3975,6 +4280,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -3988,6 +4294,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4001,6 +4308,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4014,6 +4322,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4027,6 +4336,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4040,6 +4350,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4053,6 +4364,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4066,6 +4378,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4079,6 +4392,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4092,6 +4406,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4105,6 +4420,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4118,6 +4434,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4131,6 +4448,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4144,6 +4462,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4157,6 +4476,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4170,6 +4490,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4183,6 +4504,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4196,6 +4518,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4209,6 +4532,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4222,6 +4546,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4235,6 +4560,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4248,6 +4574,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4261,6 +4588,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4274,6 +4602,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4287,6 +4616,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4300,6 +4630,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4313,6 +4644,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4326,6 +4658,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4339,6 +4672,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4352,6 +4686,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4365,6 +4700,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4378,6 +4714,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4391,6 +4728,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4404,6 +4742,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4417,6 +4756,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4430,6 +4770,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4443,6 +4784,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4456,6 +4798,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4469,6 +4812,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4482,6 +4826,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4495,6 +4840,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4508,6 +4854,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4521,6 +4868,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4534,6 +4882,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4547,6 +4896,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4560,6 +4910,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4573,6 +4924,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4586,6 +4938,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4599,6 +4952,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4612,6 +4966,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4625,6 +4980,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4638,6 +4994,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4651,6 +5008,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4664,6 +5022,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4677,6 +5036,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4690,6 +5050,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4703,6 +5064,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4716,6 +5078,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4729,6 +5092,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4742,6 +5106,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4755,6 +5120,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4768,6 +5134,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4781,6 +5148,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4794,6 +5162,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4807,6 +5176,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4820,6 +5190,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4833,6 +5204,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4846,6 +5218,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4859,6 +5232,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4872,6 +5246,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4885,6 +5260,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4898,6 +5274,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4911,6 +5288,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4924,6 +5302,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4937,6 +5316,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4950,6 +5330,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4963,6 +5344,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -4976,6 +5358,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -4989,6 +5372,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5002,6 +5386,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5015,6 +5400,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5028,6 +5414,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5041,6 +5428,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5054,6 +5442,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5067,6 +5456,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5080,6 +5470,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5093,6 +5484,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5106,6 +5498,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5119,6 +5512,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5132,6 +5526,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5145,6 +5540,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5158,6 +5554,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5171,6 +5568,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5184,6 +5582,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5197,6 +5596,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5210,6 +5610,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5223,6 +5624,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5236,6 +5638,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5249,6 +5652,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5262,6 +5666,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5275,6 +5680,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5288,6 +5694,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5301,6 +5708,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5314,6 +5722,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5327,6 +5736,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5340,6 +5750,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5353,6 +5764,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5366,6 +5778,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5379,6 +5792,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5392,6 +5806,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5405,6 +5820,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5418,6 +5834,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5431,6 +5848,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5444,6 +5862,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5457,6 +5876,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5470,6 +5890,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5483,6 +5904,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5496,6 +5918,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5509,6 +5932,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5522,6 +5946,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5535,6 +5960,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5548,6 +5974,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5561,6 +5988,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5574,6 +6002,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5587,6 +6016,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5600,6 +6030,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5613,6 +6044,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5626,6 +6058,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5639,6 +6072,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5652,6 +6086,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5665,6 +6100,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5678,6 +6114,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5691,6 +6128,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5704,6 +6142,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5717,6 +6156,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5730,6 +6170,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5743,6 +6184,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5756,6 +6198,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5769,6 +6212,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5782,6 +6226,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5795,6 +6240,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5808,6 +6254,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5821,6 +6268,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5834,6 +6282,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5847,6 +6296,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5860,6 +6310,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5873,6 +6324,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5886,6 +6338,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5899,6 +6352,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5912,6 +6366,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5925,6 +6380,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5938,6 +6394,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5951,6 +6408,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -5964,6 +6422,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5977,6 +6436,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -5990,6 +6450,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6003,6 +6464,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6016,6 +6478,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6029,6 +6492,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6042,6 +6506,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6055,6 +6520,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6068,6 +6534,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6081,6 +6548,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6094,6 +6562,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6107,6 +6576,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6120,6 +6590,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6133,6 +6604,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6146,6 +6618,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6159,6 +6632,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6172,6 +6646,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6185,6 +6660,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6198,6 +6674,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6211,6 +6688,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6224,6 +6702,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6237,6 +6716,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6250,6 +6730,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6263,6 +6744,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6276,6 +6758,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6289,6 +6772,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6302,6 +6786,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6315,6 +6800,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6328,6 +6814,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6341,6 +6828,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6354,6 +6842,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6367,6 +6856,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6380,6 +6870,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6393,6 +6884,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6406,6 +6898,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6419,6 +6912,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6432,6 +6926,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6445,6 +6940,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6458,6 +6954,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6471,6 +6968,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6484,6 +6982,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6497,6 +6996,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6510,6 +7010,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6523,6 +7024,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6536,6 +7038,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6549,6 +7052,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6562,6 +7066,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6575,6 +7080,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6588,6 +7094,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6601,6 +7108,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6614,6 +7122,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6627,6 +7136,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6640,6 +7150,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6653,6 +7164,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6666,6 +7178,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6679,6 +7192,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6692,6 +7206,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6705,6 +7220,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6718,6 +7234,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6731,6 +7248,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6744,6 +7262,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6757,6 +7276,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6770,6 +7290,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6783,6 +7304,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6796,6 +7318,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6809,6 +7332,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6822,6 +7346,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6835,6 +7360,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6848,6 +7374,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6861,6 +7388,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6874,6 +7402,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6887,6 +7416,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6900,6 +7430,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6913,6 +7444,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6926,6 +7458,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6939,6 +7472,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6952,6 +7486,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -6965,6 +7500,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6978,6 +7514,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -6991,6 +7528,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7004,6 +7542,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7017,6 +7556,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7030,6 +7570,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7043,6 +7584,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7056,6 +7598,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7069,6 +7612,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7082,6 +7626,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7095,6 +7640,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7108,6 +7654,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7121,6 +7668,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7134,6 +7682,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7147,6 +7696,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7160,6 +7710,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7173,6 +7724,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7186,6 +7738,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7199,6 +7752,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7212,6 +7766,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7225,6 +7780,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7238,6 +7794,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7251,6 +7808,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7264,6 +7822,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7277,6 +7836,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7290,6 +7850,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7303,6 +7864,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7316,6 +7878,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7329,6 +7892,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7342,6 +7906,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7355,6 +7920,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7368,6 +7934,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7381,6 +7948,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7394,6 +7962,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7407,6 +7976,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7420,6 +7990,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7433,6 +8004,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7446,6 +8018,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7459,6 +8032,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7472,6 +8046,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7485,6 +8060,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7498,6 +8074,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7511,6 +8088,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7524,6 +8102,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7537,6 +8116,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7550,6 +8130,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7563,6 +8144,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7576,6 +8158,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7589,6 +8172,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7602,6 +8186,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7615,6 +8200,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7628,6 +8214,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7641,6 +8228,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7654,6 +8242,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7667,6 +8256,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7680,6 +8270,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7693,6 +8284,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7706,6 +8298,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7719,6 +8312,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7732,6 +8326,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7745,6 +8340,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7758,6 +8354,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7771,6 +8368,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7784,6 +8382,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7797,6 +8396,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7810,6 +8410,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7823,6 +8424,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7836,6 +8438,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7849,6 +8452,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7862,6 +8466,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7875,6 +8480,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7888,6 +8494,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7901,6 +8508,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7914,6 +8522,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7927,6 +8536,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7940,6 +8550,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7953,6 +8564,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7966,6 +8578,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -7979,6 +8592,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -7992,6 +8606,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8005,6 +8620,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8018,6 +8634,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8031,6 +8648,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8044,6 +8662,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8057,6 +8676,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8070,6 +8690,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8083,6 +8704,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8096,6 +8718,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8109,6 +8732,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8122,6 +8746,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8135,6 +8760,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8148,6 +8774,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8161,6 +8788,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8174,6 +8802,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8187,6 +8816,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8200,6 +8830,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8213,6 +8844,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8226,6 +8858,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8239,6 +8872,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8252,6 +8886,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8265,6 +8900,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8278,6 +8914,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8291,6 +8928,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8304,6 +8942,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8317,6 +8956,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8330,6 +8970,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8343,6 +8984,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8356,6 +8998,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8369,6 +9012,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8382,6 +9026,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8395,6 +9040,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8408,6 +9054,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8421,6 +9068,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8434,6 +9082,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8447,6 +9096,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8460,6 +9110,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8473,6 +9124,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8486,6 +9138,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8499,6 +9152,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8512,6 +9166,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8525,6 +9180,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8538,6 +9194,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8551,6 +9208,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8564,6 +9222,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8577,6 +9236,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8590,6 +9250,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8603,6 +9264,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8616,6 +9278,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8629,6 +9292,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8642,6 +9306,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8655,6 +9320,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8668,6 +9334,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8681,6 +9348,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8694,6 +9362,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8707,6 +9376,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8720,6 +9390,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8733,6 +9404,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8746,6 +9418,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8759,6 +9432,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8772,6 +9446,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8785,6 +9460,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8798,6 +9474,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8811,6 +9488,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8824,6 +9502,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8837,6 +9516,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8850,6 +9530,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8863,6 +9544,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8876,6 +9558,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8889,6 +9572,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8902,6 +9586,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8915,6 +9600,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8928,6 +9614,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8941,6 +9628,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8954,6 +9642,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8967,6 +9656,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -8980,6 +9670,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -8993,6 +9684,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9006,6 +9698,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9019,6 +9712,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9032,6 +9726,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9045,6 +9740,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9058,6 +9754,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9071,6 +9768,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9084,6 +9782,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9097,6 +9796,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9110,6 +9810,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9123,6 +9824,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9136,6 +9838,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9149,6 +9852,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9162,6 +9866,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9175,6 +9880,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9188,6 +9894,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9201,6 +9908,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9214,6 +9922,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9227,6 +9936,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9240,6 +9950,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9253,6 +9964,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9266,6 +9978,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9279,6 +9992,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9292,6 +10006,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9305,6 +10020,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9318,6 +10034,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9331,6 +10048,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9344,6 +10062,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9357,6 +10076,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9370,6 +10090,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9383,6 +10104,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9396,6 +10118,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9409,6 +10132,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9422,6 +10146,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9435,6 +10160,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9448,6 +10174,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9461,6 +10188,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9474,6 +10202,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9487,6 +10216,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9500,6 +10230,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9513,6 +10244,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9526,6 +10258,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9539,6 +10272,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9552,6 +10286,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9565,6 +10300,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9578,6 +10314,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9591,6 +10328,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9604,6 +10342,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9617,6 +10356,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9630,6 +10370,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9643,6 +10384,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9656,6 +10398,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9669,6 +10412,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9682,6 +10426,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9695,6 +10440,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9708,6 +10454,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9721,6 +10468,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9734,6 +10482,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9747,6 +10496,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9760,6 +10510,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9773,6 +10524,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9786,6 +10538,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9799,6 +10552,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9812,6 +10566,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9825,6 +10580,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9838,6 +10594,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9851,6 +10608,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9864,6 +10622,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9877,6 +10636,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9890,6 +10650,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9903,6 +10664,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9916,6 +10678,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9929,6 +10692,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9942,6 +10706,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9955,6 +10720,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -9968,6 +10734,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9981,6 +10748,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -9994,6 +10762,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10007,6 +10776,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10020,6 +10790,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10033,6 +10804,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10046,6 +10818,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10059,6 +10832,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10072,6 +10846,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10085,6 +10860,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10098,6 +10874,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10111,6 +10888,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10124,6 +10902,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10137,6 +10916,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10150,6 +10930,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10163,6 +10944,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10176,6 +10958,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10189,6 +10972,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10202,6 +10986,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10215,6 +11000,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10228,6 +11014,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10241,6 +11028,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10254,6 +11042,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10267,6 +11056,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10280,6 +11070,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10293,6 +11084,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10306,6 +11098,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10319,6 +11112,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10332,6 +11126,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10345,6 +11140,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10358,6 +11154,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10371,6 +11168,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10384,6 +11182,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10397,6 +11196,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10410,6 +11210,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10423,6 +11224,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10436,6 +11238,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10449,6 +11252,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10462,6 +11266,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10475,6 +11280,7 @@
         "refeito_pm": true,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10488,6 +11294,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
+        "pm_mais_20": true,
         "estoque_feito": false
     },
     {
@@ -10501,6 +11308,7 @@
         "refeito_pm": true,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10514,6 +11322,7 @@
         "refeito_pm": false,
         "refeito_exc": true,
         "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": true
     },
     {
@@ -10527,1176 +11336,7 @@
         "refeito_pm": false,
         "refeito_exc": false,
         "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-08-31",
-        "horario": "07:33",
-        "nr": 1948473,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-22",
-        "horario": "12:44",
-        "nr": 1703079,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-12",
-        "horario": "16:51",
-        "nr": 1589605,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-03-23",
-        "horario": "16:09",
-        "nr": 1947050,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-23",
-        "horario": "10:18",
-        "nr": 1324991,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-30",
-        "horario": "09:44",
-        "nr": 1360455,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Dani",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-04-29",
-        "horario": "09:46",
-        "nr": 1478359,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Tati",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-03",
-        "horario": "17:18",
-        "nr": 1115128,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-20",
-        "horario": "16:51",
-        "nr": 1971290,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-06-12",
-        "horario": "18:29",
-        "nr": 1268729,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-12",
-        "horario": "09:00",
-        "nr": 1260511,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-08-01",
-        "horario": "17:03",
-        "nr": 1512059,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Tati",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-13",
-        "horario": "17:32",
-        "nr": 1023283,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "David",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-08",
-        "horario": "12:16",
-        "nr": 1703404,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Dani",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-06-15",
-        "horario": "07:53",
-        "nr": 1268561,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-15",
-        "horario": "17:35",
-        "nr": 1710069,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-05-22",
-        "horario": "15:15",
-        "nr": 1269906,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-18",
-        "horario": "13:54",
-        "nr": 1195097,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "Bob",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-08-11",
-        "horario": "07:18",
-        "nr": 1510529,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-03-27",
-        "horario": "13:28",
-        "nr": 1907290,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-14",
-        "horario": "15:41",
-        "nr": 1055004,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-08",
-        "horario": "18:46",
-        "nr": 1740681,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-24",
-        "horario": "12:42",
-        "nr": 1185652,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-08-05",
-        "horario": "07:53",
-        "nr": 1911052,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-04-19",
-        "horario": "16:31",
-        "nr": 1687559,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-31",
-        "horario": "15:31",
-        "nr": 1924646,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-07",
-        "horario": "09:22",
-        "nr": 1904443,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-27",
-        "horario": "12:19",
-        "nr": 1390306,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Bob",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-11",
-        "horario": "17:29",
-        "nr": 1619936,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-06-06",
-        "horario": "08:46",
-        "nr": 1883263,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-05-09",
-        "horario": "16:54",
-        "nr": 1166171,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-06",
-        "horario": "08:57",
-        "nr": 1374350,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-25",
-        "horario": "13:34",
-        "nr": 1108889,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-13",
-        "horario": "08:12",
-        "nr": 1714686,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-22",
-        "horario": "11:29",
-        "nr": 1767013,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-05",
-        "horario": "13:51",
-        "nr": 1952814,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-13",
-        "horario": "13:01",
-        "nr": 1900309,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-05",
-        "horario": "12:16",
-        "nr": 1777854,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Alice",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-28",
-        "horario": "15:17",
-        "nr": 1383418,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-17",
-        "horario": "12:46",
-        "nr": 1528154,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-08-28",
-        "horario": "12:55",
-        "nr": 1402081,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-27",
-        "horario": "18:24",
-        "nr": 1370133,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-09-13",
-        "horario": "18:41",
-        "nr": 1163477,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-29",
-        "horario": "14:17",
-        "nr": 1482072,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-05-09",
-        "horario": "17:34",
-        "nr": 1754165,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-15",
-        "horario": "17:56",
-        "nr": 1001549,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-11",
-        "horario": "15:08",
-        "nr": 1162297,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Alice",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-04-22",
-        "horario": "16:55",
-        "nr": 1696827,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-29",
-        "horario": "13:41",
-        "nr": 1308425,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-03-27",
-        "horario": "17:38",
-        "nr": 1390986,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-05-16",
-        "horario": "16:14",
-        "nr": 1486011,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Alice",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-04-13",
-        "horario": "18:03",
-        "nr": 1110515,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-11",
-        "horario": "12:29",
-        "nr": 1263317,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-06-09",
-        "horario": "15:09",
-        "nr": 1878937,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-04-17",
-        "horario": "11:08",
-        "nr": 1294033,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-08-27",
-        "horario": "15:52",
-        "nr": 1987318,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Bob",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-13",
-        "horario": "12:58",
-        "nr": 1900896,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "cae",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-08-24",
-        "horario": "09:24",
-        "nr": 1339525,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-05-24",
-        "horario": "07:18",
-        "nr": 1308922,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-04-24",
-        "horario": "15:58",
-        "nr": 1610301,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "David",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-03-25",
-        "horario": "08:05",
-        "nr": 1503841,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-08-30",
-        "horario": "14:58",
-        "nr": 1774034,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-09",
-        "horario": "10:11",
-        "nr": 1294570,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-09-06",
-        "horario": "14:24",
-        "nr": 1516724,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-06-25",
-        "horario": "10:07",
-        "nr": 1371624,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Alice",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-07",
-        "horario": "18:08",
-        "nr": 1569059,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-03-29",
-        "horario": "15:02",
-        "nr": 1181542,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-21",
-        "horario": "16:50",
-        "nr": 1150111,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "Tati",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-15",
-        "horario": "14:36",
-        "nr": 1279727,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-05-27",
-        "horario": "17:46",
-        "nr": 1661864,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-03-27",
-        "horario": "18:38",
-        "nr": 1384907,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-18",
-        "horario": "10:16",
-        "nr": 1308918,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-09-13",
-        "horario": "15:43",
-        "nr": 1525806,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Tati",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-08-30",
-        "horario": "15:45",
-        "nr": 1604803,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-09",
-        "horario": "12:43",
-        "nr": 1761150,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Charlie",
-        "funcionario_pm": "Tati",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-13",
-        "horario": "13:49",
-        "nr": 1456443,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Bob",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-04-06",
-        "horario": "07:27",
-        "nr": 1814465,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "Alice",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-04",
-        "horario": "10:25",
-        "nr": 1840535,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-08",
-        "horario": "12:51",
-        "nr": 1365332,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Dani",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Tati",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-08-28",
-        "horario": "09:01",
-        "nr": 1679981,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-23",
-        "horario": "08:02",
-        "nr": 1370887,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "cae",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-02",
-        "horario": "15:08",
-        "nr": 1219899,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Dani",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-09-15",
-        "horario": "09:30",
-        "nr": 1667180,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "David",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "Alice",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-31",
-        "horario": "09:28",
-        "nr": 1747349,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "Charlie",
-        "funcionario_manipulacao": "Alice",
-        "funcionario_pm": "Charlie",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-07-06",
-        "horario": "11:00",
-        "nr": 1361676,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "David",
-        "funcionario_pm": "Dani",
-        "refeito_pm": false,
-        "refeito_exc": true,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-03",
-        "horario": "15:32",
-        "nr": 1073417,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "Bob",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-05-13",
-        "horario": "10:14",
-        "nr": 1982276,
-        "tipo_formula": "Sub-Lingual/Cápsulas Oleosas",
-        "funcionario_pesagem": "Alice",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "Dani",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": false,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-07-27",
-        "horario": "17:37",
-        "nr": 1191546,
-        "tipo_formula": "Líquidos Orais",
-        "funcionario_pesagem": "cae",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "David",
-        "refeito_pm": false,
-        "refeito_exc": false,
-        "estoque_usado": true,
-        "estoque_feito": false
-    },
-    {
-        "date": "2025-06-15",
-        "horario": "13:46",
-        "nr": 1527190,
-        "tipo_formula": "Semi-Sólidos",
-        "funcionario_pesagem": "Tati",
-        "funcionario_manipulacao": "Bob",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": true,
-        "estoque_usado": true,
-        "estoque_feito": true
-    },
-    {
-        "date": "2025-06-20",
-        "horario": "10:29",
-        "nr": 1602056,
-        "tipo_formula": "Cápsulas",
-        "funcionario_pesagem": "Bob",
-        "funcionario_manipulacao": "Tati",
-        "funcionario_pm": "cae",
-        "refeito_pm": true,
-        "refeito_exc": false,
-        "estoque_usado": true,
+        "pm_mais_20": true,
         "estoque_feito": false
     }
 ]

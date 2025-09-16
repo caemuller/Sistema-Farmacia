@@ -5,3 +5,5 @@
  - [x] Remover refeito SS
  - [] graficos refeitos por funcionarios
  - [] graficos em relacao ao tempo
+
+ ## COMO INSTALAR

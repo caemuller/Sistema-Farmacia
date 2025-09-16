@@ -104,6 +104,14 @@ app.layout = html.Div(
                 html.Div(className="col-12 col-md-6", children=[dcc.Graph(id='stock_over_time')])
             ]
         ),
+        
+        html.Div(
+            className="row",
+            style={"margin-top": "40px", "display": "flex", "flex-wrap": "wrap"},
+            children=[
+                html.Div(className="col-12 col-md-6", children=[dcc.Graph(id='pm_mais_20_handling_bar')]),
+            ]
+        ),
     ]
 )
 
@@ -119,7 +127,8 @@ app.layout = html.Div(
      Output('exc_reworked_weighing_bar', 'figure'),
      Output('pm_reworked_handling_bar', 'figure'),
      Output('formulas_over_time', 'figure'),
-     Output('stock_over_time', 'figure')],
+     Output('stock_over_time', 'figure'),
+     Output('pm_mais_20_handling_bar', 'figure')], # Novo Output
     [Input('date_range_picker', 'start_date'),
      Input('date_range_picker', 'end_date'),
      Input('time_filter', 'value')]
@@ -134,7 +143,7 @@ def update_dashboard(start_date, end_date, time_freq):
         empty_fig.update_layout(title="Nenhum dado encontrado para o período selecionado.")
         return (
             [html.Div("Nenhum dado encontrado para o período selecionado.", style={"textAlign": "center", "color": "red"})],
-            empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig
+            empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig
         )
 
     # --- KPIs for exceptions ---
@@ -205,7 +214,7 @@ def update_dashboard(start_date, end_date, time_freq):
     pm_fig = px.bar(pm_counts, x='Funcionário', y='Contagem', title='Fórmulas Verificadas (PM) por Funcionário', text_auto=True)
     pm_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
     
-    # --- NEW GRAPHS ---
+    # --- GRÁFICOS NOVOS ---
     
     # Estoque Feito por Funcionário
     stock_made_df = filtered_df[filtered_df['estoque_feito'] > 0]
@@ -243,9 +252,16 @@ def update_dashboard(start_date, end_date, time_freq):
     stock_over_time_fig.add_trace(go.Scatter(x=stock_over_time_df['date'], y=stock_over_time_df['estoque_usado'], mode='lines+markers', name='Estoque Usado'))
     stock_over_time_fig.update_layout(title='Estoque Feito e Usado ao Longo do Tempo', xaxis_title='Data', yaxis_title='Contagem', hovermode="x unified")
 
+    # --- NOVO GRÁFICO: pm_mais_20 por funcionario_manipulacao ---
+    pm_mais_20_df = filtered_df[filtered_df['pm_mais_20'] > 0]
+    pm_mais_20_counts = pm_mais_20_df['funcionario_manipulacao'].value_counts().reset_index()
+    pm_mais_20_counts.columns = ['Funcionário', 'Contagem']
+    pm_mais_20_fig = px.bar(pm_mais_20_counts, x='Funcionário', y='Contagem', title='PM +20 por Funcionário de Manipulação', text_auto=True)
+    pm_mais_20_fig.update_layout(xaxis_title="Funcionário", yaxis_title="Contagem")
 
     return (kpi_cards, tipo_formula_pie, overall_employee_fig, weighing_fig, handling_fig, pm_fig, 
-            stock_made_fig, exc_reworked_fig, pm_reworked_fig, formulas_over_time_fig, stock_over_time_fig)
+            stock_made_fig, exc_reworked_fig, pm_reworked_fig, formulas_over_time_fig, stock_over_time_fig,
+            pm_mais_20_fig) # Retorna a nova figura
 
 # Run the app
 if __name__ == "__main__":

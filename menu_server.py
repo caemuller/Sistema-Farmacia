@@ -5,7 +5,7 @@ import os
 import datetime
 import requests
 
-SERVER_URL = "http://192.168.0.168:5000"
+SERVER_URL = "http://SERVER IP:5000"
 
 # --- File Management Functions (Same as before) ---
 DATABASE_FILE = "funcionarios.json"
@@ -147,8 +147,16 @@ class App:
         self.estoque_usado_var = tk.BooleanVar()
         self.estoque_feito_var = tk.BooleanVar()
 
+        # Frame for "Refeito PM" and "Refeito EXC"
         refeito_frame = tk.Frame(main_frame)
         refeito_frame.pack(pady=10)
+
+
+        # ✅ New checkbox "PM +20" (added just below refeito checkboxes)
+        self.pm_plus_20_var = tk.BooleanVar()
+        pm_plus_20_check = tk.Checkbutton(main_frame, text="PM +20", variable=self.pm_plus_20_var, font=("Helvetica", 12))
+        pm_plus_20_check.pack(pady=(0, 10))
+
         
         estoque_frame = tk.Frame(main_frame)
         estoque_frame.pack(pady=5)
@@ -179,6 +187,8 @@ class App:
         refeito_exc = self.refeito_exc_var.get()
         estoque_usado = self.estoque_usado_var.get()
         estoque_feito = self.estoque_feito_var.get()
+        pm_plus_20 = self.pm_plus_20_var.get()
+
 
         if not nr or not formula_type or not funcionario_pesagem or not funcionario_manipulacao or not funcionario_pm:
             messagebox.showerror("Validation Error", "Please fill in all fields.")
@@ -202,6 +212,8 @@ class App:
             "refeito_exc": refeito_exc,
             "estoque_usado": estoque_usado,
             "estoque_feito": estoque_feito,
+            "pm_mais_20": pm_plus_20  # ✅ New key
+
         }
 
         save_formula(formula_data)
@@ -216,6 +228,7 @@ class App:
         self.refeito_exc_var.set(False)
         self.estoque_usado_var.set(False)
         self.estoque_feito_var.set(False)
+        self.pm_plus_20_var.set(False)
         self.nr_entry.focus_set()
 
     def on_formulas_window_close(self):

@@ -7,14 +7,15 @@
         "name": "Tati",
         "role": "Farmaceutico"
     },
-    "Caetano": {
-        "name": "Caetano"
-    },
     "Julia": {
         "name": "Julia"
     },
     "asd": {
         "name": "asd",
+        "role": "Farmaceutico"
+    },
+    "Teste server": {
+        "name": "Teste server",
         "role": "Farmaceutico"
     }
 }

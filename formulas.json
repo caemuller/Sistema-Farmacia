@@ -39,5 +39,32 @@
         "refeito_exc": true,
         "estoque_usado": true,
         "estoque_feito": true
+    },
+    {
+        "date": "2025-09-16",
+        "time": "14:52",
+        "nr": 2604,
+        "tipo_formula": "Sub-Lingual/C\u00e1psulas Oleosas",
+        "funcionario_pesagem": "Julia",
+        "funcionario_manipulacao": "Julia",
+        "funcionario_pm": "Dani",
+        "refeito_pm": true,
+        "refeito_exc": false,
+        "estoque_usado": false,
+        "estoque_feito": true
+    },
+    {
+        "date": "2025-09-16",
+        "time": "15:05",
+        "nr": 121212,
+        "tipo_formula": "Sub-Lingual/C\u00e1psulas Oleosas",
+        "funcionario_pesagem": "Julia",
+        "funcionario_manipulacao": "Tati",
+        "funcionario_pm": "Julia",
+        "refeito_pm": true,
+        "refeito_exc": false,
+        "estoque_usado": false,
+        "estoque_feito": false,
+        "pm_mais_20": true
     }
 ]

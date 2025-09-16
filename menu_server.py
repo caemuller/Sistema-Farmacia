@@ -3,7 +3,9 @@ from tkinter import ttk, messagebox
 import json
 import os
 import datetime
+import requests
 
+SERVER_URL = "http://192.168.0.168:5000"
 
 # --- File Management Functions (Same as before) ---
 DATABASE_FILE = "funcionarios.json"
@@ -21,51 +23,45 @@ def create_databases():
                     json.dump({}, f)
 
 def get_employees():
-    """Reads all employees from the JSON file."""
     try:
-        with open(DATABASE_FILE, 'r') as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
+        response = requests.get(f"{SERVER_URL}/employees")
+        return response.json()
+    except:
         return {}
+
     
 def add_employee_logic(name, is_farmaceutico):
-    """Adds a new employee to the database with an optional role."""
-    employees = get_employees()
-    if name in employees:
-        return False, f"Error: An employee with the name '{name}' already exists."
-    else:
-        employee_data = {"name": name}
+    try:
+        data = {"name": name}
         if is_farmaceutico:
-            employee_data["role"] = "Farmaceutico"
-        employees[name] = employee_data
-        with open(DATABASE_FILE, 'w') as f:
-            json.dump(employees, f, indent=4)
-        return True, f"Employee '{name}' added successfully."
+            data["role"] = "Farmaceutico"
+        response = requests.post(f"{SERVER_URL}/employees", json=data)
+        if response.status_code == 200:
+            return True, response.json().get("message")
+        else:
+            return False, response.json().get("error")
+    except Exception as e:
+        return False, f"Server error: {str(e)}"
+
 
 def remove_employee_logic(name):
-    """Removes an employee from the database."""
-    employees = get_employees()
-    if name not in employees:
-        return False, f"Error: Employee '{name}' not found."
-    else:
-        del employees[name]
-        with open(DATABASE_FILE, 'w') as f:
-            json.dump(employees, f, indent=4)
-        return True, f"Employee '{name}' removed successfully."
+    try:
+        response = requests.delete(f"{SERVER_URL}/employees/{name}")
+        if response.status_code == 200:
+            return True, response.json().get("message")
+        else:
+            return False, response.json().get("error")
+    except Exception as e:
+        return False, f"Server error: {str(e)}"
+
 
 def save_formula(data):
-    """Saves the formula data to the formulas.json file."""
-    create_databases()
     try:
-        with open(FORMULAS_FILE, 'r') as f:
-            formulas = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        formulas = []
+        response = requests.post(f"{SERVER_URL}/formulas", json=data)
+        return response.status_code == 200
+    except:
+        return False
 
-    formulas.append(data)
-
-    with open(FORMULAS_FILE, 'w') as f:
-        json.dump(formulas, f, indent=4)
 
 # --- GUI Application Class ---
 

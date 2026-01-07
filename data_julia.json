@@ -1,0 +1,232 @@
+[
+    {
+        "date": "2025-12-30",
+        "time": "16:27",
+        "nr": "368252",
+        "tipo_erro": "Ativo",
+        "funcionario": "Jiuliani",
+        "valor": 3.19,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:32",
+        "nr": "368266",
+        "tipo_erro": "Dosagem",
+        "funcionario": "Jiuliani",
+        "valor": -45.36,
+        "desconto": false,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:36",
+        "nr": "368430",
+        "tipo_erro": "Tipo de C\u00e1psula",
+        "funcionario": "Jiuliani",
+        "valor": 50.55,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:51",
+        "nr": "368524",
+        "tipo_erro": "Quantidade",
+        "funcionario": "R\u00f4",
+        "valor": 38.83,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:52",
+        "nr": "366359",
+        "tipo_erro": "Tipo de C\u00e1psula",
+        "funcionario": "Rita",
+        "valor": 12.0,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:53",
+        "nr": "366424",
+        "tipo_erro": "Ativo",
+        "funcionario": "Rita",
+        "valor": 0.0,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:54",
+        "nr": "367283",
+        "tipo_erro": "Ativo",
+        "funcionario": "Rita",
+        "valor": 1.22,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:55",
+        "nr": "367452",
+        "tipo_erro": "Forma Farmac\u00eautica",
+        "funcionario": "Rita",
+        "valor": 17.3,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:56",
+        "nr": "367446",
+        "tipo_erro": "Ativo",
+        "funcionario": "Rita",
+        "valor": 0.34,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:56",
+        "nr": "367859",
+        "tipo_erro": "Ativo",
+        "funcionario": "Rita",
+        "valor": 1.68,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:57",
+        "nr": "368210",
+        "tipo_erro": "Ativo",
+        "funcionario": "Rita",
+        "valor": 94.13,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "16:59",
+        "nr": "365887",
+        "tipo_erro": "Tipo de C\u00e1psula",
+        "funcionario": "Rita",
+        "valor": 154.0,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:00",
+        "nr": "368647",
+        "tipo_erro": "Quantidade",
+        "funcionario": "Rita",
+        "valor": 120.52,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:02",
+        "nr": "368254",
+        "tipo_erro": "Ativo",
+        "funcionario": "Maiquely",
+        "valor": 5.85,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:02",
+        "nr": "368261",
+        "tipo_erro": "Ativo",
+        "funcionario": "Maiquely",
+        "valor": 5.85,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:03",
+        "nr": "366516",
+        "tipo_erro": "Tipo de C\u00e1psula",
+        "funcionario": "Pedro",
+        "valor": 20.91,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:04",
+        "nr": "367506",
+        "tipo_erro": "Dosagem",
+        "funcionario": "Pedro",
+        "valor": 3.47,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:04",
+        "nr": "0",
+        "tipo_erro": "Ativo",
+        "funcionario": "R\u00f4",
+        "valor": 58.0,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:06",
+        "nr": "367912",
+        "tipo_erro": "Ativo",
+        "funcionario": "Vera",
+        "valor": 35.32,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:06",
+        "nr": "0",
+        "tipo_erro": "Ativo",
+        "funcionario": "Lari",
+        "valor": 58.0,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:07",
+        "nr": "367859",
+        "tipo_erro": "Ativo",
+        "funcionario": "Lari",
+        "valor": 1.68,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:10",
+        "nr": "367912",
+        "tipo_erro": "Ativo",
+        "funcionario": "Lari",
+        "valor": 35.32,
+        "desconto": true,
+        "cobrado": false
+    },
+    {
+        "date": "2025-12-30",
+        "time": "17:15",
+        "nr": "367141",
+        "tipo_erro": "Guardou Fora da Geladeira",
+        "funcionario": "Hellen",
+        "valor": 35.5,
+        "desconto": true,
+        "cobrado": false
+    }
+]

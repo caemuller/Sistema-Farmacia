@@ -4,13 +4,24 @@ from dash import html, dcc, Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
 import os
+import base64
+
+# --- CONFIGURATION ---
+DATA_FILE = "data_julia.json"
+LOGO_FILE = "logo.png"
+
+# --- HELPER: IMAGE ENCODING ---
+def encode_image(image_file):
+    """Encodes a local image file to base64 for Dash."""
+    if os.path.exists(image_file):
+        encoded = base64.b64encode(open(image_file, 'rb').read())
+        return 'data:image/png;base64,{}'.format(encoded.decode())
+    return None
 
 # --- LOAD DATA ---
-DATA_FILE = "data_julia.json"
-
 def load_data():
     if not os.path.exists(DATA_FILE):
-        return pd.DataFrame(columns=['date', 'time', 'nr', 'tipo_erro', 'funcionario', 'valor', 'desconto', 'cobrado'])
+        return pd.DataFrame(columns=['date', 'time', 'nr', 'tipos_erro', 'funcionario', 'valor', 'desconto', 'cobrado'])
     
     try:
         df = pd.read_json(DATA_FILE)
@@ -18,28 +29,38 @@ def load_data():
             df['date'] = pd.to_datetime(df['date'])
         return df
     except ValueError:
-        return pd.DataFrame(columns=['date', 'time', 'nr', 'tipo_erro', 'funcionario', 'valor', 'desconto', 'cobrado'])
+        return pd.DataFrame(columns=['date', 'time', 'nr', 'tipos_erro', 'funcionario', 'valor', 'desconto', 'cobrado'])
 
-# Initialize Data
-df = load_data()
+# Initialize Data for Dropdowns
+df_init = load_data()
 
-# Handle empty data init
-if not df.empty:
-    min_date = df['date'].min().date()
-    max_date = df['date'].max().date()
+# Handle empty data init for DatePicker
+if not df_init.empty:
+    min_date = df_init['date'].min().date()
+    max_date = df_init['date'].max().date()
+    unique_employees = sorted(df_init['funcionario'].unique().tolist())
 else:
     min_date = pd.to_datetime('today').date()
     max_date = pd.to_datetime('today').date()
+    unique_employees = []
 
 # --- DASH APP ---
 app = dash.Dash(__name__, meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}])
 app.title = "Dashboard Financeiro de Erros"
 
+# Get encoded logo
+logo_src = encode_image(LOGO_FILE)
+
 app.layout = html.Div(
     className="container",
     style={'font-family': 'Arial, sans-serif', 'backgroundColor': '#f4f6f9', 'padding': '20px', 'minHeight': '100vh'},
     children=[
-        html.H1("Dashboard de Custos de Erros", style={"textAlign": "center", "color": "#d9534f", "marginBottom": "30px"}),
+        
+        # --- LOGO & HEADER ---
+        html.Div(style={'textAlign': 'center', 'marginBottom': '20px'}, children=[
+            html.Img(src=logo_src, style={'height': '80px', 'marginBottom': '10px'}) if logo_src else None,
+            html.H1("Dashboard de Custos de Erros", style={"color": "#333", "margin": "0"})
+        ]),
 
         # --- Controls ---
         html.Div(
@@ -84,16 +105,23 @@ app.layout = html.Div(
             ]
         ),
 
-        # --- Row 2: Breakdown by Type & Status ---
+        # --- Row 2: Interactive Individual Analysis ---
         html.Div(
-            style={"display": "flex", "flexWrap": "wrap", "gap": "20px", "marginBottom": "30px"},
+            style={'backgroundColor': 'white', 'padding': '20px', 'borderRadius': '8px', 'boxShadow': '0 2px 5px rgba(0,0,0,0.1)', 'marginBottom': '30px'},
             children=[
-                html.Div(style={'flex': '1', 'minWidth': '300px', 'backgroundColor': 'white', 'padding': '15px', 'borderRadius': '8px', 'boxShadow': '0 2px 5px rgba(0,0,0,0.1)'}, children=[
-                    dcc.Graph(id='cost_by_type_chart')
+                html.H3("Análise Individual: Detalhe de Erros por Funcionário", style={'color': '#333', 'borderBottom': '1px solid #eee', 'paddingBottom': '10px'}),
+                
+                html.Div(style={'marginTop': '20px', 'marginBottom': '20px', 'width': '50%'}, children=[
+                    html.Label("Selecione o Funcionário:", style={'fontWeight': 'bold'}),
+                    dcc.Dropdown(
+                        id='employee_selector',
+                        options=[{'label': emp, 'value': emp} for emp in unique_employees],
+                        placeholder="Escolha um nome...",
+                        value=unique_employees[0] if unique_employees else None
+                    )
                 ]),
-                html.Div(style={'flex': '1', 'minWidth': '300px', 'backgroundColor': 'white', 'padding': '15px', 'borderRadius': '8px', 'boxShadow': '0 2px 5px rgba(0,0,0,0.1)'}, children=[
-                    dcc.Graph(id='status_pie_chart')
-                ])
+                
+                dcc.Graph(id='employee_detail_chart')
             ]
         )
     ]
@@ -103,27 +131,27 @@ app.layout = html.Div(
     [Output('kpi_cards', 'children'),
      Output('cost_over_time_chart', 'figure'),
      Output('cost_by_employee_chart', 'figure'),
-     Output('cost_by_type_chart', 'figure'),
-     Output('status_pie_chart', 'figure')],
+     Output('employee_detail_chart', 'figure')], # New Output
     [Input('date_picker', 'start_date'),
      Input('date_picker', 'end_date'),
-     Input('time_agg', 'value')]
+     Input('time_agg', 'value'),
+     Input('employee_selector', 'value')] # New Input
 )
-def update_dashboard(start_date, end_date, freq):
+def update_dashboard(start_date, end_date, freq, selected_employee):
     # Reload data to get realtime updates
     df = load_data()
     
+    empty_fig = go.Figure().update_layout(title="Sem dados")
+
     if df.empty:
-        empty_fig = go.Figure().update_layout(title="Sem dados")
-        return [html.Div("Sem dados")], empty_fig, empty_fig, empty_fig, empty_fig
+        return [html.Div("Sem dados")], empty_fig, empty_fig, empty_fig
 
     # Filter by Date
     mask = (df['date'] >= start_date) & (df['date'] <= end_date)
     filtered_df = df.loc[mask]
 
     if filtered_df.empty:
-        empty_fig = go.Figure().update_layout(title="Sem dados neste período")
-        return [html.Div("Sem dados")], empty_fig, empty_fig, empty_fig, empty_fig
+        return [html.Div("Sem dados neste período")], empty_fig, empty_fig, empty_fig
 
     # --- KPIs ---
     total_cost = filtered_df['valor'].sum()
@@ -152,7 +180,6 @@ def update_dashboard(start_date, end_date, freq):
     ]
 
     # --- 1. Cost Over Time ---
-    # Group by Frequency
     cost_over_time = filtered_df.groupby(pd.Grouper(key='date', freq=freq))['valor'].sum().reset_index()
     fig_time = px.line(cost_over_time, x='date', y='valor', markers=True, title="Evolução do Prejuízo Financeiro")
     fig_time.update_layout(yaxis_title="Valor (R$)", xaxis_title="Data")
@@ -160,33 +187,40 @@ def update_dashboard(start_date, end_date, freq):
 
     # --- 2. Cost by Employee (Bar) ---
     cost_by_emp = filtered_df.groupby('funcionario')['valor'].sum().reset_index().sort_values('valor', ascending=True)
-    fig_emp = px.bar(cost_by_emp, x='valor', y='funcionario', orientation='h', title="Prejuízo por Funcionário", text_auto='.2f')
-    fig_emp.update_traces(marker_color='#337ab7', textfont_size=12, textangle=0, textposition="outside")
+    fig_emp = px.bar(cost_by_emp, x='valor', y='funcionario', orientation='h', title="Prejuízo Total por Funcionário", text_auto='.2f')
+    fig_emp.update_traces(marker_color='#337ab7', textfont_size=12, textposition="outside")
     fig_emp.update_layout(xaxis_title="Valor Total (R$)", yaxis_title=None)
 
-    # --- 3. Cost by Error Type (Bar) ---
-    cost_by_type = filtered_df.groupby('tipo_erro')['valor'].sum().reset_index().sort_values('valor', ascending=False)
-    fig_type = px.bar(cost_by_type, x='tipo_erro', y='valor', title="Custo por Tipo de Erro", text_auto='.2f')
-    fig_type.update_traces(marker_color='#5cb85c')
-    fig_type.update_layout(yaxis_title="Valor (R$)", xaxis_title=None)
+    # --- 3. Individual Employee Detail (New Graph) ---
+    if selected_employee:
+        # Filter for the specific employee
+        emp_df = filtered_df[filtered_df['funcionario'] == selected_employee].copy()
+        
+        if not emp_df.empty:
+            # Important: Use explode because 'tipos_erro' is a list like ['A', 'B']
+            # Explode creates a separate row for every error in the list
+            emp_df_exploded = emp_df.explode('tipos_erro')
+            
+            # Count occurrences of each error type
+            error_counts = emp_df_exploded['tipos_erro'].value_counts().reset_index()
+            error_counts.columns = ['Tipo de Erro', 'Quantidade']
+            
+            fig_detail = px.bar(
+                error_counts, 
+                x='Tipo de Erro', 
+                y='Quantidade', 
+                title=f"Tipos de Erro Cometidos por: {selected_employee}",
+                text_auto=True
+            )
+            fig_detail.update_traces(marker_color='#d9534f')
+            fig_detail.update_layout(yaxis_title="Qtd Ocorrências")
+        else:
+            fig_detail = go.Figure().update_layout(title=f"Sem dados para {selected_employee} no período")
+    else:
+        fig_detail = go.Figure().update_layout(title="Selecione um funcionário")
 
-    # --- 4. Status Pie Chart (Cobrado vs Desconto vs Pendente) ---
-    # We create categories based on booleans
-    def get_status(row):
-        if row['cobrado']: return 'Cobrado'
-        if row['desconto']: return 'Desconto'
-        return 'Pendente/Prejuízo'
-    
-    status_df = filtered_df.copy()
-    status_df['status'] = status_df.apply(get_status, axis=1)
-    
-    status_counts = status_df.groupby('status')['valor'].sum().reset_index()
-    fig_status = px.pie(status_counts, values='valor', names='status', title='Distribuição do Custo (Status)', hole=0.4)
-    fig_status.update_traces(textinfo='percent+label')
-
-    return kpi_html, fig_time, fig_emp, fig_type, fig_status
+    return kpi_html, fig_time, fig_emp, fig_detail
 
 if __name__ == "__main__":
-    # Using a different port (8052) to avoid conflict with the other dashboard
     print("Starting Financial Dashboard on Port 8052...")
     app.run(debug=True, host='127.0.0.1', port=8052)

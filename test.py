@@ -9,8 +9,8 @@ print("--- STARTING APP ---")
 
 # --- LOAD DATA SECTION ---
 try:
-    print("Attempting to load fake_data.json...")
-    df = pd.read_json("fake_data.json")
+    print("Attempting to load formulas.json...")
+    df = pd.read_json("formulas.json")
     
     # Check if data loaded
     print(f"Data loaded successfully! Found {len(df)} rows.")
@@ -18,7 +18,7 @@ try:
     # Convert date
     df['date'] = pd.to_datetime(df['date'])
 
-    # 1. Handle "horario" vs "time"
+    # 1. Handle "horario" vs "time" (Still needed for timeline charts or fallback)
     if 'horario' in df.columns:
         print("Using 'horario' column for time logic.")
         def get_hour(t):
@@ -48,11 +48,12 @@ except ValueError as e:
     data = {
         'date': pd.date_range(start='2025-05-20', periods=10, freq='D'),
         'horario': ['09:00', '13:00', '10:00', '14:00', '11:00', '09:30', '15:00', '08:00', '16:00', '10:00'],
+        # NEW: Adding turno to dummy data to test the logic
+        'turno': ['manha', 'tarde', 'manha', 'tarde', 'manha', 'manha', 'tarde', 'manha', 'tarde', 'manha'],
         'nr': range(1, 11),
         'funcionario_pesagem': ['Ana', 'Bob', 'Ana', 'Bob', 'Ana', 'Bob', 'Ana', 'Bob', 'Ana', 'Bob'],
         'funcionario_manipulacao': ['Bob', 'Ana', 'Bob', 'Ana', 'Bob', 'Ana', 'Bob', 'Ana', 'Bob', 'Ana'],
         'funcionario_pm': ['Carlos'] * 10,
-        # ensuring specific types exist for the new KPIs
         'tipo_formula': ['Cápsulas', 'Semi-sólidos', 'Sub-lingual/oleosas', 'Líquidos orais', 'Cápsulas', 
                          'Semi-sólidos', 'Sub-lingual/oleosas', 'Líquidos orais', 'Cápsulas', 'Semi-sólidos'],
         'refeito_pm': [False] * 10,
@@ -238,16 +239,13 @@ def update_dashboard(start_date, end_date, time_freq):
         )
 
     # ==========================
-    # KPI LOGIC
+    # KPI LOGIC (MODIFIED FOR TURNO)
     # ==========================
     
     # 1. General Totals
     total_formulas = len(filtered_df)
-    formulas_morning = len(filtered_df[filtered_df['hour_int'] < 12])
-    formulas_afternoon = len(filtered_df[filtered_df['hour_int'] >= 12])
 
     # 2. Category Definitions
-    # Adjust strings here to match your exact JSON data
     solids_types = ['Cápsulas', 'Sub-lingual/oleosas', 'Capsula',"Sub-Lingual/Cápsulas Oleosas", "Sachês"] 
     semi_solids_types = ['Semi-Sólidos',"Líquidos Orais", 'Líquidos orais', 'Semi-solidos', 'Liquidos orais', 'Creme', 'Xarope']
 
@@ -255,15 +253,33 @@ def update_dashboard(start_date, end_date, time_freq):
     df_solids = filtered_df[filtered_df['tipo_formula'].isin(solids_types)]
     df_semi = filtered_df[filtered_df['tipo_formula'].isin(semi_solids_types)]
 
-    # 4. Solids Metrics
     solids_total = len(df_solids)
-    solids_am = len(df_solids[df_solids['hour_int'] < 12])
-    solids_pm = len(df_solids[df_solids['hour_int'] >= 12])
-
-    # 5. Semi-Solids Metrics
     semi_total = len(df_semi)
-    semi_am = len(df_semi[df_semi['hour_int'] < 12])
-    semi_pm = len(df_semi[df_semi['hour_int'] >= 12])
+
+    # ---------------------------------------------------------
+    # CONDITIONAL LOGIC: TURNO vs TIMESTAMP
+    # ---------------------------------------------------------
+    if 'turno' in filtered_df.columns:
+        # Use explicit flags if the column exists
+        formulas_morning = len(filtered_df[filtered_df['turno'] == 'manha'])
+        formulas_afternoon = len(filtered_df[filtered_df['turno'] == 'tarde'])
+        
+        solids_am = len(df_solids[df_solids['turno'] == 'manha'])
+        solids_pm = len(df_solids[df_solids['turno'] == 'tarde'])
+        
+        semi_am = len(df_semi[df_semi['turno'] == 'manha'])
+        semi_pm = len(df_semi[df_semi['turno'] == 'tarde'])
+    else:
+        # Fallback to Old Logic (Time < 12)
+        formulas_morning = len(filtered_df[filtered_df['hour_int'] < 12])
+        formulas_afternoon = len(filtered_df[filtered_df['hour_int'] >= 12])
+        
+        solids_am = len(df_solids[df_solids['hour_int'] < 12])
+        solids_pm = len(df_solids[df_solids['hour_int'] >= 12])
+        
+        semi_am = len(df_semi[df_semi['hour_int'] < 12])
+        semi_pm = len(df_semi[df_semi['hour_int'] >= 12])
+    # ---------------------------------------------------------
 
     # 6. Styling
     big_card_style = {

@@ -55,10 +55,11 @@ with tab2:
     with st.form("form_erro_venda", clear_on_submit=True):
         st.subheader("Registrar Novo Erro")
         
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3, col4 = st.columns(4) # Mudei para 4 colunas
         data_erro = col1.date_input("Data do Erro", datetime.date.today(), format="DD/MM/YYYY")
         nr = col2.text_input("NR do Pedido")
         valor = col3.number_input("Valor (R$)", min_value=0.0, format="%.2f")
+        penalidade = col4.number_input("Penalidade na Meta (%)", min_value=0, max_value=100, step=5) # NOVO CAMPO
         
         # Uses filtered sales employees
         funcionario = st.selectbox("Funcionário Envolvido", options=[""] + vendas_employees)
@@ -88,6 +89,7 @@ with tab2:
                     "nr": nr, "tipos_erro": erros_selecionados, "funcionario": funcionario, "valor": valor,
                     "desconto": desconto, "cobrado": cobrado, "acrescimo": acrescimo,
                     "deixado_credito": deixado_credito, "reaproveitamento": reaproveitamento,
+                    "penalidade": penalidade, # NOVA CHAVE AQUI
                     "produto_refeito": produto_refeito, "nao_mudou_valor": nao_mudou_valor, "observacoes": obs
                 }
                 save_record(SALES_DATA_FILE, record)

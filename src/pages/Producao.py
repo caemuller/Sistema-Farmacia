@@ -117,6 +117,7 @@ with tab3:
         tipos_erro_prod = st.multiselect("Tipos de Erro de Produção", options=tipos_prod)
         
         custo = st.number_input("Custo Estimado (R$)", min_value=0.0)
+        penalidade = st.number_input("Penalidade na Meta (%)", min_value=0, max_value=100, step=5) # NOVO CAMPO
         obs_erro = st.text_area("Descreva o que aconteceu")
         
         if st.form_submit_button("Salvar Erro de Produção"):
@@ -126,7 +127,7 @@ with tab3:
                 record = {
                     "date": data_erro.isoformat(),
                     "nr": nr_erro, "funcionario": func_erro, "tipos_erro": tipos_erro_prod,
-                    "custo": custo, "observacoes": obs_erro
+                    "custo": custo, "penalidade": penalidade, "observacoes": obs_erro
                 }
                 save_record(PROD_ERROR_DATA, record)
                 st.success("Erro de produção registrado!")

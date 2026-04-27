@@ -1,1 +1,10 @@
-{}
+{
+    "abcd": {
+        "role": "Operador",
+        "setor": "Ambos"
+    },
+    "aa": {
+        "role": "Operador",
+        "setor": "Ambos"
+    }
+}

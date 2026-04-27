@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "date": "2026-04-27",
+        "time": "14:04",
+        "nr": "123",
+        "tipos_erro": [
+            "erro2",
+            "esqueceu"
+        ],
+        "funcionario": "abcd",
+        "valor": 100.0,
+        "desconto": true,
+        "cobrado": false,
+        "acrescimo": false,
+        "deixado_credito": false,
+        "reaproveitamento": false,
+        "penalidade": 25,
+        "produto_refeito": false,
+        "nao_mudou_valor": false,
+        "observacoes": "---"
+    }
+]
